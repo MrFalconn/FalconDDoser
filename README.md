@@ -1,4 +1,4 @@
-# FalconDdoser
+# FalconDDoser
 
 Strong Ddoser script
 
