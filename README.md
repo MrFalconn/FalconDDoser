@@ -6,7 +6,7 @@ update for Hammer
 
 my github: https://github.com/MrFalconn
 
-version: 2.0
+version: 2.1
 
 
 
