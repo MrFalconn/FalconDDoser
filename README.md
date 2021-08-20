@@ -1,6 +1,6 @@
 # FalconDDoser
 
-Strong Ddoser script
+Strong DDoser script
 
 update for Hammer
 
