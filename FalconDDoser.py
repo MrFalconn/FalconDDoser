@@ -294,7 +294,7 @@ def my_bots():
 	bots.append("https://steamcommunity.com/market/search?q=")
 	bots.append("http://www.topsiteminecraft.com/site/pinterest.com/search?q='")
 	bots.append("http://eu.battle.net/wow/en/search?q=")
-        bots.append("https://www.google.ae/search?q=")
+	bots.append("https://www.google.ae/search?q=")
 	bots.append("https://www.google.com.af/search?q=")
 	bots.append("https://www.google.com.ag/search?q=")
 	bots.append("https://www.google.com.ai/search?q=")
