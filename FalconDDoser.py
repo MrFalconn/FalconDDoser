@@ -9,6 +9,8 @@ from colorama import Fore, Back, Style
 from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
+from s1 import my_bots
+
 
 def user_agent():
 	global uagent
@@ -266,58 +268,6 @@ def user_agent():
 	uagent.append("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36")
 	
 	return(uagent)
-
-
-def my_bots():
-	global bots
-	bots=[]
-	bots.append("http://validator.w3.org/check?uri=")
-	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
-	bots.append("http://engadget.search.aol.com/search?q=")
-	bots.append("http://www.usatoday.com/search/results?q=")
-	bots.append("http://www.google.com/?q=")
-	bots.append("http://www.bing.com/search?q=")
-	bots.append("https://www.yandex.com/yandsearch?text=")
-	bots.append("https://duckduckgo.com/?q=")
-	bots.append("http://www.ask.com/web?q=")
-	bots.append("http://search.aol.com/aol/search?q=")
-	bots.append("https://www.om.nl/vaste-onderdelen/zoeken/?zoeken_term")
-	bots.append("https://drive.google.com/viewerng/viewer?url=")
-	bots.append("http://validator.w3.org/feed/check.cgi?url=")
-	bots.append("http://host-tracker.com/check_page/?furl=")
-	bots.append("http://www.online-translator.com/url/translation.aspx?direction=er&sourceURL=")
-	bots.append("http://jigsaw.w3.org/css-validator/validator?uri=")
-	bots.append("https://add.my.yahoo.com/rss?url=")
-	bots.append("http://www.google.com/?q=")
-	bots.append("http://www.usatoday.com/search/results?q=")
-	bots.append("http://engadget.search.aol.com/search?q=")
-	bots.append("https://steamcommunity.com/market/search?q=")
-	bots.append("http://www.topsiteminecraft.com/site/pinterest.com/search?q='")
-	bots.append("http://eu.battle.net/wow/en/search?q=")
-	bots.append("https://www.google.ae/search?q=")
-	bots.append("https://www.google.com.af/search?q=")
-	bots.append("https://www.google.com.ag/search?q=")
-	bots.append("https://www.google.com.ai/search?q=")
-	bots.append("https://www.google.al/search?q=")
-	bots.append("https://www.google.am/search?q=")
-	bots.append("https://www.google.co.ao/search?q=")
-	bots.append("https://steamcommunity.com/market/search?q=")
-	bots.append("https://www.ted.com/search?q=")
-	bots.append("https://play.google.com/store/search?q=")
-	bots.append("https://www.qwant.com/search?q=")
-	bots.append("https://soda.demo.socrata.com/resource/4tka-6guv.json?$q=")
-	bots.append("https://www.google.ad/search?q=")
-	bots.append("https://www.youtube.com/")
-	bots.append("https://check-host.net/")
-	bots.append("https://www.bing.com/search?q=")
-	bots.append("https://r.search.yahoo.com/")
-	bots.append("https://www.facebook.com/")
-	bots.append("https://vk.com/profile.php?redirect=")
-	bots.append("https://www.usatoday.com/search/results?q=")
-	bots.append("https://help.baidu.com/searchResult?keywords=")
-
-	return(bots)
-
 
 def bot_hammering(url):
 	try:
